@@ -29,6 +29,15 @@ page.blocks
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
+@import url(../blocks/places/places.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__author-info/cards__author-info.css);
+@import url(../blocks/cards/__author-category/cards__author-category.css);
+@import url(../blocks/cards/__author-detail/cards__author-detail.css);
+@import url(../blocks/cards/__image/cards__image.css);
+
 *,
 *::before,
 *::after {
