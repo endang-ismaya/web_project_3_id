@@ -4,3 +4,7 @@
     font-weight: 900;
     line-height: 76px;
 }
+
+.cards__item:nth-child(3) .cards__title {
+    font-size: 60px;
+}
