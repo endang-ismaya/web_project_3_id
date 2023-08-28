@@ -4,4 +4,9 @@
     width: 137px;
     height: 48px;
     text-align: center;
+    z-index: 1;
+}
+
+.cover__action:hover + .cover__overlay {
+    opacity: 0.2;
 }
