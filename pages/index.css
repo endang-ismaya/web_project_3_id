@@ -26,6 +26,9 @@ page.blocks
 @import url(../blocks/intro/__author/intro__author.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
 
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+
 *,
 *::before,
 *::after {
@@ -75,8 +78,9 @@ body {
 }
 
 .page {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
     color: #ffffff;
+    /* border: 1px solid brown; */
 }
