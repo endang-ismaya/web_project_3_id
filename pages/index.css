@@ -176,7 +176,7 @@ body {
     }
 
     .cards__image {
-        width: 100%;
+        width: 340px;
     }
 
     .cards__description-container {
@@ -209,6 +209,25 @@ body {
     .cards__item:nth-child(4) .cards__action {
         position: absolute;
         top: 460px;
+    }
+
+    .cover {
+        margin: 92px 0 0 0;
+    }
+
+    .cover__title {
+        top: 246px;
+        left: 56px;
+    }
+
+    .cover__subtitle {
+        top: 354px;
+        left: 244px;
+    }
+
+    .cover__action {
+        top: 452px;
+        left: 308px;
     }
 }
 
