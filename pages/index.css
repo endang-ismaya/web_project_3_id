@@ -115,7 +115,7 @@ body {
     color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1279px) {
     .lead__title {
         width: 69%;
     }
@@ -153,6 +153,62 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 16px 16px;
+    }
+
+    .places {
+        margin: 88px 24px 0 24px;
+    }
+
+    .cards {
+        gap: 0;
+    }
+
+    .cards__item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px 28px;
+        position: relative;
+    }
+
+    .cards__title {
+        width: 110%;
+        font-size: 42px;
+    }
+
+    .cards__image {
+        width: 100%;
+    }
+
+    .cards__description-container {
+        width: 352px;
+    }
+
+    .cards__description {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 163%;
+        margin-bottom: 20px;
+    }
+
+    .cards__item:nth-child(1) .cards__description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .cards__item .cards__action {
+        position: absolute;
+        top: 460px;
+    }
+
+    .cards__item:nth-child(3) .cards__title {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .cards__item:nth-child(4) .cards__action {
+        position: absolute;
+        top: 460px;
     }
 }
 
