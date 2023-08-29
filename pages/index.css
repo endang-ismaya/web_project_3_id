@@ -28,6 +28,7 @@ page.blocks
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/cards/cards.css);
@@ -145,6 +146,13 @@ body {
 
     .intro__paragraph {
         width: 100%;
+    }
+
+    .photo-grid {
+        margin: 66px 24px 0 24px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px 16px;
     }
 }
 
