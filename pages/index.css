@@ -49,10 +49,9 @@ page.blocks
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__action/cover__action.css);
-/*
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css); */
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 *,
 *::before,
@@ -108,7 +107,6 @@ body {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
     color: #ffffff;
-    border: 1px solid blue;
 }
 
 @media screen and (min-width: 768px) {
