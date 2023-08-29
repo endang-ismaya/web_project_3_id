@@ -9,4 +9,6 @@
     top: 351px;
     left: 452px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
 }
