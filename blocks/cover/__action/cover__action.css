@@ -1,12 +1,14 @@
 .cover__action {
-    margin-top: 42px;
     text-decoration: none;
     width: 137px;
     height: 48px;
     text-align: center;
+    position: absolute;
+    top: 449px;
+    left: 521px;
     z-index: 1;
 }
 
-.cover__action:hover + .cover__overlay {
+.cover__action:hover ~ .cover__overlay {
     opacity: 0.2;
 }
