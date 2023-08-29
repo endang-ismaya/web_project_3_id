@@ -1,8 +1,5 @@
 .cards {
-    width: 987px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 80px;
 }

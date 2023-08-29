@@ -1,3 +1,6 @@
 .cards__author-info {
-    align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 10px;
 }

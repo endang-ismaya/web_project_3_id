@@ -1,7 +1,7 @@
 .cards__author-detail {
-    width: 456;
+    margin-top: 8px;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.2;
-    margin-top: 10px;
 }

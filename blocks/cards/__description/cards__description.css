@@ -1,12 +1,12 @@
 .cards__description {
     font-size: 16.5px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 1.6;
-    margin-top: 20px;
+    line-height: 163%;
+    margin-bottom: 20px;
 }
 
 .cards__item:nth-child(1) .cards__description {
     font-size: 18px;
     line-height: 1.6;
-    margin-top: 10px;
 }

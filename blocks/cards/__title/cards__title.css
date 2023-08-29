@@ -1,10 +1,13 @@
 .cards__title {
-    width: 460px;
+    width: 50%;
     font-size: 72px;
+    font-style: normal;
     font-weight: 900;
     line-height: 1;
+    margin-bottom: 10px;
 }
 
 .cards__item:nth-child(3) .cards__title {
     font-size: 60px;
+    width: 100%;
 }

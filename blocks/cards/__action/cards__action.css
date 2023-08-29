@@ -2,4 +2,10 @@
     text-decoration: none;
     width: 304px;
     height: 48px;
+    margin-top: 22px;
+}
+
+.cards__item:nth-child(4) .cards__action {
+    position: absolute;
+    top: 660px;
 }

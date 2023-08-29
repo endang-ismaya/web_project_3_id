@@ -1,8 +1,5 @@
 .cards__item {
-    width: 984px;
-    overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 50px;
-    margin-bottom: 80px;
+    grid-gap: 26px 40px;
 }
