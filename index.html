@@ -2,7 +2,7 @@
 <html lang="id">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="./vendor/normalize.css" />
         <link rel="stylesheet" href="./pages/index.css" />
         <title>Dari Tanah Air ke Tanah Air</title>
@@ -98,6 +98,7 @@
                         class="photo-grid__image"
                     />
                 </section>
+
                 <section class="places">
                     <div class="cards">
                         <div class="cards__item">
@@ -114,11 +115,6 @@
                                     alt="Kyiv, Ukraine"
                                     class="cards__image"
                                 />
-                                <a
-                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                                    class="cards__action btn btn_type_primary"
-                                    >Beli karya seni ini sebagai NFT</a
-                                >
                             </div>
                             <div>
                                 <p class="cards__description">
@@ -145,6 +141,11 @@
                                     pinggiran paling kanan.
                                 </p>
                             </div>
+                            <a
+                                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                                class="cards__action btn btn_type_primary"
+                                >Beli karya seni ini sebagai NFT</a
+                            >
                         </div>
                         <div class="cards__item">
                             <h2 class="cards__title">Criccieth, Wales</h2>
@@ -163,11 +164,6 @@
                                     alt="Criccieth, Wales"
                                     class="cards__image"
                                 />
-                                <a
-                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                                    class="cards__action btn btn_type_primary"
-                                    >Beli karya seni ini sebagai NFT</a
-                                >
                             </div>
                             <div>
                                 <p class="cards__description">
@@ -195,6 +191,11 @@
                                     pernah memegang jabatan sebagai Perdana
                                     Menteri Inggris.
                                 </p>
+                                <a
+                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                                    class="cards__action btn btn_type_primary"
+                                    >Beli karya seni ini sebagai NFT</a
+                                >
                             </div>
                         </div>
                         <div class="cards__item">
@@ -211,11 +212,6 @@
                                     alt="Criccieth, Wales"
                                     class="cards__image"
                                 />
-                                <a
-                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                                    class="cards__action btn btn_type_primary"
-                                    >Beli karya seni ini sebagai NFT</a
-                                >
                             </div>
                             <div>
                                 <p class="cards__description">
@@ -243,6 +239,11 @@
                                     karena setiap siswanya menerima beasiswa
                                     penuh.
                                 </p>
+                                <a
+                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                                    class="cards__action btn btn_type_primary"
+                                    >Beli karya seni ini sebagai NFT</a
+                                >
                             </div>
                         </div>
                         <div class="cards__item">
@@ -259,11 +260,6 @@
                                     alt="Criccieth, Wales"
                                     class="cards__image"
                                 />
-                                <a
-                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                                    class="cards__action btn btn_type_primary"
-                                    >Beli karya seni ini sebagai NFT</a
-                                >
                             </div>
                             <div>
                                 <p class="cards__description">
@@ -300,6 +296,11 @@
                                     dan aliran yang menyediakan air di seluruh
                                     negeri.
                                 </p>
+                                <a
+                                    href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                                    class="cards__action btn btn_type_primary"
+                                    >Beli karya seni ini sebagai NFT</a
+                                >
                             </div>
                         </div>
                         <div class="cards__item">
@@ -312,7 +313,7 @@
                             </div>
                             <div class="cards__image-container">
                                 <img
-                                    src="./images/places/Tangerang,_1.jpg"
+                                    src="./images/places/Tangerang_1.png"
                                     alt="Criccieth, Wales"
                                     class="cards__image"
                                 />
@@ -351,6 +352,7 @@
                         </div>
                     </div>
                 </section>
+
                 <section class="cover">
                     <h2 class="cover__title">Kunjungi kami</h2>
                     <p class="cover__subtitle">
@@ -374,5 +376,22 @@
                 <p class="footer__copyright">©️2021. Endang Ismaya</p>
             </footer>
         </div>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $.each($("*"), function () {
+                if ($(this).width() > $(".page").width()) {
+                    console.log(
+                        "Wide Element: ",
+                        $(this),
+                        "Width: ",
+                        $(this).width()
+                    );
+                }
+            });
+        </script>
     </body>
 </html>

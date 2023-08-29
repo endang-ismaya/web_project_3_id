@@ -11,7 +11,7 @@ page.blocks
 
 @import url(../vendor/InterWeb/inter.css);
 
-@import url(../blocks/lead/lead.css);
+/* @import url(../blocks/lead/lead.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -52,7 +52,7 @@ page.blocks
 @import url(../blocks/cover/__action/cover__action.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css); */
 
 *,
 *::before,
@@ -100,17 +100,18 @@ section {
 
 body {
     background: #2a2c2f;
+    overflow-x: hidden;
 }
 
 .page {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
     color: #ffffff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) {
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) {
 }
