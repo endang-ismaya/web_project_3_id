@@ -176,7 +176,7 @@ body {
     }
 
     .cards__image {
-        width: 340px;
+        width: 100%;
     }
 
     .cards__description-container {
@@ -213,21 +213,7 @@ body {
 
     .cover {
         margin: 92px 0 0 0;
-    }
-
-    .cover__title {
-        top: 246px;
-        left: 56px;
-    }
-
-    .cover__subtitle {
-        top: 354px;
-        left: 244px;
-    }
-
-    .cover__action {
-        top: 452px;
-        left: 308px;
+        height: 746px;
     }
 }
 
