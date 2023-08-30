@@ -1,3 +1,4 @@
 .cards__description-container {
-    width: 484px;
+    flex: 50%;
+    /* width: 484px; */
 }

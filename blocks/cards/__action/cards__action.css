@@ -1,11 +1,10 @@
 .cards__action {
-    text-decoration: none;
-    width: 304px;
+    margin-top: 20px;
+    width: fit-content;
     height: 48px;
-    margin-top: 22px;
 }
 
-.cards__item:nth-child(4) .cards__action {
-    position: absolute;
-    top: 660px;
-}
+/* .cards__item:nth-child(4) .cards__action {
+    position: relative;
+    top: -150px;
+} */

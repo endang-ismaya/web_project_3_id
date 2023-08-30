@@ -1,4 +1,7 @@
 .btn {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
     border-radius: 4px;
     padding: 13px 20px;
     font-size: 18px;
