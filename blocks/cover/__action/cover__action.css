@@ -7,6 +7,6 @@
     margin-top: 2%;
 }
 
-.cover__action:hover ~ .cover__overlay {
-    opacity: 0.2;
+.cover__action:hover .cover::before {
+    background: rgba(0, 0, 0, 0.8);
 }
