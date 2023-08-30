@@ -212,5 +212,127 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 677px) {
+    /* lead */
+    .lead__title {
+        width: 69%;
+        font-size: 40px;
+    }
+
+    .lead__subtitle {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .lead__main-illustration {
+        margin-top: 20px;
+    }
+
+    /* intro */
+
+    .intro {
+        margin: 64px 0px 0 16px;
+    }
+
+    .intro__brief {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .intro__quote {
+        width: 98%;
+        font-size: 20px;
+    }
+
+    .intro__author {
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    .intro__paragraph {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* photo-grid */
+    .photo-grid {
+        margin: 48px 16px 0 16px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 16px 16px;
+    }
+
+    .photo-grid__image {
+        width: 100%;
+    }
+
+    /* places */
+    .places {
+        margin: 62px 0 0 0;
+    }
+
+    .cards__item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .cards__title,
+    .cards__author-info,
+    .cards__description-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .cards__title {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .cards__item:nth-child(3) .cards__title {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .cards__item:nth-child(4) .cards__title {
+        width: 80%;
+    }
+
+    .cards__description {
+        font-size: 15px;
+    }
+
+    .cards__image {
+        width: 100%;
+    }
+
+    .cards__description-container {
+        margin-bottom: 50px;
+    }
+
+    .cards__action {
+        margin-left: 8px;
+        margin-right: 8px;
+        position: absolute;
+        bottom: 0;
+        width: 93%;
+    }
+    .btn {
+        font-size: 16px;
+    }
+
+    /* cover */
+
+    .cover {
+        margin: 55px 0 0 0;
+        height: 254px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+    }
 }
