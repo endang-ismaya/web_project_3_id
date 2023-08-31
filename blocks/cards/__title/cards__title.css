@@ -8,14 +8,5 @@
 }
 
 .cards__item:nth-child(3) .cards__title {
-    font-size: 60px;
-    width: 100%;
-}
-
-.cards__item:nth-child(4) .cards__title {
-    width: 100%;
-}
-
-.cards__item:nth-child(5) .cards__title {
-    width: 100%;
+    font-size: 48px;
 }
