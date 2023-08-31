@@ -1,6 +1,6 @@
 .cover {
     margin-top: 92px;
-    background: 0 0 url(../../images/cover/cover-image.png);
+    background: 0 0 url(./../../images/cover/cover-image.png);
     background-size: cover;
     background-position: center;
     width: 100%;
